@@ -138,3 +138,20 @@ h4{
 .footer p span{
   color: var(--five-color);
 }
+marquee{
+    position: fixed;
+    bottom: 10px;
+    right: 0;
+  z-index: 100000;
+  border: 1px solid red;
+  background-color: var(--first-color);
+}
+.marq{
+margin-top: 10px;
+color: var(--white-color);
+font-weight: 700;
+font-size: 18px;
+background-color: transparent;
+border: 0;
+box-shadow: none;
+}
