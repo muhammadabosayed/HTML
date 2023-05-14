@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+ul{
+  list-style: none;
+}
 :root{
 --first-color:#0d1317;
 --second-color:#101d42;
@@ -87,6 +90,7 @@ box-shadow: 0 0 5px var(--second-color);
 }
 h4{
   color: var(--three-color);
+  text-align: center;
 }
 .card{
   background-color: var(--second-color);
@@ -128,6 +132,50 @@ h4{
   color: var(--five-color);
 
 }
+.content .image{
+  width: 70%;
+  display: block;
+  margin: 10px auto;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+@media (max-width:992px) {
+  .h4{
+    font-size: 18px;
+    font-weight: 700;
+    margin: 10px auto;
+  }
+  .content .image{
+    width: 100%;
+
+
+}
+}
+.list li{
+  color: var(--white-color);
+  background-color:var(--four-color);
+  margin: 10px 0;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: 600;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+}
+
+
+ul li span{
+  color:var(--first-color)
+}
+
+
+
+
 
 
 .footer p{
@@ -135,9 +183,12 @@ h4{
   color: var(--white-color);
   font-size: 20px;
 }
+
 .footer p span{
   color: var(--five-color);
 }
+
+
 marquee{
     position: fixed;
     bottom: 10px;
@@ -146,6 +197,7 @@ marquee{
   border: 1px solid var(--three-color);
   background-color: var(--first-color);
 }
+
 .marq{
 margin-top: 10px;
 color: var(--white-color);
