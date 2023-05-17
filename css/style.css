@@ -88,6 +88,10 @@ box-shadow: 0 0 5px var(--second-color);
   -ms-border-radius: 6px;
   -o-border-radius: 6px;
 }
+p .specislWord{
+  color: var(--three-color) ;
+  font-weight: 700;
+}
 h4{
   color: var(--three-color);
   text-align: center;
@@ -189,21 +193,3 @@ ul li span{
 }
 
 
-marquee{
-    position: fixed;
-    bottom: 10px;
-    right: 0;
-  z-index: 100000;
-  border: 1px solid var(--three-color);
-  background-color: var(--first-color);
-}
-
-.marq{
-margin-top: 10px;
-color: var(--white-color);
-font-weight: 700;
-font-size: 18px;
-background-color: transparent;
-border: 0;
-box-shadow: none;
-}
